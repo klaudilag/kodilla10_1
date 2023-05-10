@@ -9,7 +9,6 @@ import com.kodilla.spring.forum.ForumUser;
 import org.springframework.test.context.ContextConfiguration;
 
 @SpringBootTest
-@ContextConfiguration(classes = ForumUser.class)
 public class ForumTestSuite {
     @Test
     void testGetUsername(){
